@@ -1,0 +1,110 @@
+/*Add padding and margin to space out the page.
+Make the font larger too.*/
+*{
+	padding: 0;
+	margin: 0;
+}
+body{
+	background: #d3d3d3;
+	color: #8b0000;
+	font-family: helvetica, sans-serif;
+}
+ul li{
+	display: inline-block;
+	list-style: none;
+	margin-right: 1em;
+}
+li a{
+	color: #8b0000;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 25px;
+	padding: 12px;
+}
+li a:hover{
+	color: #0a06f7;
+}
+
+/*Make the h1 heading bigger with a bold font*/
+h1{
+	font-size: 2em; 
+	font-weight: bold;
+	font-family: "Baloo", sans-serif;
+}
+
+/*Style the images*/
+img{
+    height: 200px;
+	width:auto;
+	justify-items: center;
+    padding: 25px;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+/*Make the h2 heading match h1*/
+h2{
+	font-size: 1.5em; 
+	font-weight: bold;
+	font-family: "Chalkduster", sans-serif;
+}
+
+/*Improve the spacing for paragraphs AND headings*/
+p, h1, h2 {
+    padding: 10px;
+}
+
+/*Add borders around the main components and some
+space too*/
+header, nav, main, h1, footer{
+	border: 2px solid grey;
+	margin: 10px 0;
+}
+
+
+/*Change the styling for all of the list 
+items in the nav section*/
+nav li{
+	background-color: #c0c0c0;
+	font-family: 'herculanum', helvetica, sans-serif;
+	padding:10px;
+	width:100%;
+	border:1px solid black;
+}
+
+
+
+/*Added this so the links stay the same color*/
+a:visited{columns: #000000;}
+
+
+input[type=text], input[type=email], textarea{
+	width: 100%;
+	font-family: 'Times New Roman', Times, serif, sans-serif;
+	padding: 8x 12px;
+	margin: 12px 2px;
+	display: inline-block;
+	border: 2px double #f88379;
+	border-radius: 2px;
+	box-sizing: border-box;
+}
+a.req2:link,a.req2:visited{
+	border: 10px solid;
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+
+}
+
+
+.container1{
+	display: grid;
+	row-gap: 5px;
+}
+.img1{
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+}
+
+.mylogo{
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+}
